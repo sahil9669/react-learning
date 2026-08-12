@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+  color:white;
+  box-sizing: border-box;
+  font-family: "helvetica neue";
+}
+
+hmtl,body{
+  background-color: black;
+  height:100%;
+  width:100%;
+}
+
+.card{
+  background-color: rgb(224, 46, 75);
+  border-radius: 10px;
+  margin:20px;
+  padding: 20px;
+}
+
+.navbar{
+  /* display: flex; */
+  /* justify-content: center;   */
+  /* display: inline; */
+  margin:5px;
+  padding:5px; 
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+#navText{
+  color:blueviolet;
+}
+
