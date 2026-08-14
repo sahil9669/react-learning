@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+  /* color:#ddd9d9 */
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: sans-serif;
+  
+}
+
+
+.card{
+  display: inline-block;
+  height: 350px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 20px;
+  overflow: hidden;
+  padding:20px;
+}
+
+
+.card .top{
+  display: flex;                    
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+.logo{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+.logo img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card .top button{
+  color: #8d8888;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1.5px solid #8d8888;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  font-weight: 520;
+}
+
+
+.card .top button:hover{
+  background-color: #f2f2f2;
+  color: #000;
+  border-color: #000;
+}
+
+.card .center{
+  margin-top: 2rem;
+}
+
+.card .center p{
+  display: inline-block;
+}
+
+.card .center #companyName{
+  margin-right: 1rem;
+  color: #000;
+  font-weight: 550;
+}
+
+.card .center #uploadTime{
+  color: #8d8888;
+  font-weight: 550;
+
+}
+
+.card .center #position{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color:#000;
+  font-size: 1.8rem;
+}
+
+.shift{
+  display: inline-block;
+  padding:10px 15px;
+  background-color: #ddd9d9;
+  border-radius: 10px;
+  font-weight: 550;
+  margin-right: 0.5rem;
+}
+
+.level{
+  display: inline-block;
+  padding:10px 15px;
+  font-weight: 550;
+  background-color: #ddd9d9;
+  border-radius: 10px;
+}
+
+.btn button{
+  background-color: #000;
+  color:#fff;
+  border:none;
+  padding:10px;
+  border-radius:10px;
+  width:6.7rem;
+}
+
+.bottom{
+  margin-top:1rem;
+  display: flex;
+  justify-content: space-between;;
+}
+
+hr{
+  margin-top:2.2rem;
+}
+
+#pay{
+  color: #000;
+  font-weight: 550;
+}
+
+#location{
+    color:#8d8888
+}
